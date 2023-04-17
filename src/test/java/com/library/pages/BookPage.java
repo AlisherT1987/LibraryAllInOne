@@ -47,6 +47,9 @@ public class BookPage extends BasePage {
     @FindBy(id = "description")
     public WebElement description;
 
+    @FindBy(xpath = "//span[.='Books']")
+    public WebElement booksBtn;
+
 
 
     public WebElement editBook(String book) {

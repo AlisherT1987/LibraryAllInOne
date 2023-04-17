@@ -1,6 +1,7 @@
+@B28G1-186 @us01 @done
 Feature: As a librarian, I want to retrieve all users
 
-@us01
+ @B28G1-185
   Scenario: Retrieve all users from the API endpoint
 
     Given I logged Library api as a "librarian"
